@@ -284,7 +284,7 @@ window.onload = function() {
 
 function download(){
 const link = document.createElement("a");
-link.href = '../assets/cv/Şəfa Heydərova CV.pdf';
+link.href = '../assets/cv/Şəfa Heydərova CV .pdf';
 link.setAttribute("download", "Şəfa_Heydərova_CV.pdf");
 document.body.appendChild(link);
 link.click();
